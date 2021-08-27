@@ -12,7 +12,7 @@ namespace CalculateArea
         /// <summary>Вычисление площади фигуры. </summary>
         protected abstract double CalculateArea();
 
-        /// <summary>Метод проверки списока переданных размеров на валидность фигуры. True - валидно, False - не валидно. </summary>
+        /// <summary>Метод проверки списка переданных размеров на валидность фигуры. True - валидно, False - не валидно. </summary>
         protected abstract bool IsValid(List<double> sizeParameters);
 
         /// <summary>Устанавливает и возвращает список размеров, составляющих фигуру.</summary>
